@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleNav()">X</button>
+    <li id="ins"> <- press here to  open taskbar</li>
+    <nav id="myNav">
+        <div class="profile">
+            <img src="aaaa.jpg" alt="Profile Photo">
+            <p>Harish Parmeshwar Adsul</p>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="work_experience.html">Work Experience</a></li>
+            <li><a href="awards.html">Awards and Recognitions</a></li>
+            <li><a href="best_works.html">My Selected Best Works</a></li>
+            <li><a href="photo_gallery.html">Photo Gallery</a></li>
+            <li><a href="articles.html">My Articles/Blogs</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="memories.html">My Memories</a></li>
+            <li><a href="cv.html">My CV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Have a question, suggestion, or just want to say hi? Feel free to reach out to me using the contact information below!</p>
+        <div class="contact-info">
+            <p>Email: hpadsul_b23@ce.vjti.ac.in</p>
+            <p>Phone: +1234567890</p>
+            <p>Address: gate 5,VJTI,Mumbai - 4000019</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/your_instagram" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/your_facebook" target="_blank">Linkedn</a>
+        </div>
+        <p class="joke">Warning: Contacting me may result in excessive discussions about code, bad puns, and occasional bouts of laughter. Proceed with caution!</p>
+   </div>
+    
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("myNav");
+            if (nav.style.left === "0px") {
+                nav.style.left = "-250px";
+            } else {
+                nav.style.left = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
